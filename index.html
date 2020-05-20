@@ -10,7 +10,116 @@
 
 
 <link rel="stylesheet" href="https://use.typekit.net/hku4wqa.css">
+<style>
+	body {
+  display: flex;   /* Magic begins */
+  flex-wrap: wrap; /* Allow multiple lines */
+}
+#left, #right {
+  flex: 1 300px;
+  min-width: 0;
+  background: #333;
+  padding: 0px 0;
+}
+#left{
+  padding: 30px;
+  position: relative;
+}
 
+#right {
+  background: #333;
+  padding: 0px 0;
+}
+
+.about {
+  position: relative;
+
+}
+
+video {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.text-content {
+  background: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: flex; -webkit-box-align: center;
+                  align-items: center; 
+                 -webkit-box-pack: center;
+                  justify-content: left;
+}
+
+
+.right, img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+h1 {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 9vw;
+  text-align: left;
+  padding: 30px;
+}
+
+h2 {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 6vw;
+  text-align: left;
+}
+
+h3 {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 5vw;
+  text-align: left;
+  padding: 30px;
+  width: 50%;
+  hanging-punctuation: first;
+}
+
+h4 {
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 5vw;
+  text-align: left;
+  padding: 30px;
+  width: 50%;
+  hanging-punctuation: first;
+}
+
+
+main {
+  margin: 0 auto;
+  width: 80%;
+}
+
+p {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  position: absolute;
+  bottom:0;
+}
+
+	</style>
+	
 </head>
 <body>
 
